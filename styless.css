@@ -1,0 +1,54 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+   
+
+
+html {
+    background-image: url(imgs/background2.jpg);
+  
+ }
+ 
+ .box{
+   transform: translate(50%,-50%);
+     background-color: rgba(81, 108, 131, 0.281);
+     width: 300px;
+     height: 300px;
+     text-align: center;
+    border: 5px solid #fcfffd7a;
+     border-radius: 20px; 
+     font-size:larger;
+     font-style:unset;
+     color: rgb(255, 255, 255);
+     position: absolute;
+     right:50% ;
+     top: 50%;
+     padding: 20px;
+ }
+ 
+ #bt { 
+   background-color: rgba(0, 255, 255, 0);
+   border: 2px solid rgba(81, 108, 131, 0.205);
+   border-radius: 3px;
+   filter: blur(1%);
+   cursor: pointer;
+   width: 40px;
+   height: 20px;
+   top: 10%;
+
+ }
+
+ #user { 
+   background-color: rgba(240, 248, 255, 0);
+   position: absolute;
+   
+   
+ }
+ 
+
+
+
+
+
+
