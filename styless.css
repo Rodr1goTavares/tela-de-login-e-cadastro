@@ -1,15 +1,25 @@
 *{
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  list-style: none;
 }
-   
+  
 
 
 html {
     background-image: url(imgs/background2.jpg);
   
  }
- 
+
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+
  .box{
      transform: translate(50%,-50%);
      position: absolute;
@@ -70,13 +80,14 @@ html {
    width: 70px;
    height: 30px;
 
-   background-color: rgba(255, 255, 255, 0.349);
+   background-color: rgba(255, 255, 255, 0.349); 
    border: 2px solid rgba(81, 108, 131, 0.205);
    border-radius: 3px;
    filter: blur(1%);
    border-radius: 3px;
    border:solid 2px rgba(255, 255, 255, 0.384);
    color: rgb(0, 0, 0); 
+   cursor: pointer;
     
    
  }
@@ -92,10 +103,24 @@ html {
   color: rgba(251, 255, 255, 0.397);
   text-decoration: underline;
 
+ }
 
+ #credits { 
+  
+  position: absolute;
+  transform: translate(50%,-50%);
+  right: 50%;
+  top: 90%;
+
+  color: rgb(3, 3, 3);
+ }
+
+ #credits:hover{ 
+  color: rgb(0, 255, 242);
 
  }
 
+ 
 
 
 

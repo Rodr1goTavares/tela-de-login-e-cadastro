@@ -46,3 +46,5 @@ function fgpmouseenter(){
 function fgpmouseleave(){ 
     fgp.style.color ="rgba(251, 255, 255, 0.397)"
 }
+
+
