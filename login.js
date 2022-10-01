@@ -12,7 +12,7 @@ function btConfirm(){
     let errormsg = document.getElementById('errormsg');
     errormsg.innerHTML = 'Usuário ou senha incorretos, tente novamente';
     /* Como ainda não tem um back end para armazenar as informações
-    do usuário o programa vai sempre mostrar essa mensagem */
+    do usuário, o programa vai sempre mostrar essa mensagem */
 }
 
 
@@ -48,3 +48,4 @@ function fgpmouseleave(){
 }
 
 
+//men dropdown
