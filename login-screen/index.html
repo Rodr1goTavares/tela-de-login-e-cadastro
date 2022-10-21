@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login screen</title>
-    <link rel="stylesheet" href="styless.css">
     
 </head>
 
@@ -15,21 +14,24 @@
     <main class ="login">
         <h1>Login</h1>
 
-        <input type="text" id="user"  placeholder="User">
-        <input type="password" id="password" placeholder="Password"> 
-        
+        <form>
+            <input type="text" id="user"  placeholder="User">
+            <input type="password" id="password" placeholder="Password"> 
+        </form>
     
         <div id="errormsg"></div>
 
         <button type="button" id="bt" value="confirm" onclick="login()"> Confirm </button>
     
+        <a href="/regster-page/register.html" target="_blank" id="register">Create Account</a>
         <a href="" id="fgpassword"> Forgot password ?</a>
     </main>
 
-    <footer><a id="credits" href="https://github.com/Rodr1goTavares"> &copy;Rodr1go Tavares </a></footer>
+    <footer><a id="credits" href="https://github.com/Rodr1goTavares" target="_blank"> &copy;Rodr1go Tavares </a></footer>
     
 </body>
 
+<link rel="stylesheet" href="styless.css">
 <script src="login.js"></script>
 </html>
 
