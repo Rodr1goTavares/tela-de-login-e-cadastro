@@ -6,22 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login screen</title>
-    
 </head>
 
-<body> 
+<body>
+        <div id="background">
+            <div id="blur"></div>
+        </div>
+
 
     <main class ="login">
         <h1>Login</h1>
 
         <form>
-            <input type="text" id="user"  placeholder="User">
-            <input type="password" id="password" placeholder="Password"> 
+            <input type="text" class="user-and-password" id="user"  placeholder="User">
+            <input type="password" class="user-and-password" id="password" placeholder="Password"> 
         </form>
     
         <div id="errormsg"></div>
 
-        <button type="button" id="bt" value="confirm" onclick="login()"> Confirm </button>
+        <button type="button" id="bt" value="confirm" onclick="login()"> Submit </button>
     
         <a href="/regster-page/register.html" target="_blank" id="register">Create Account</a>
         <a href="" id="fgpassword"> Forgot password ?</a>
