@@ -1,12 +1,156 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    list-style: none;
-  }
-    
+  font-family: sans-serif;
+  list-style: none;
+}
+
+#background{
+  transform:translate(50%,-50%);
+  position: absolute;
+
+  top: 50%;
+  right: 50%;
+
+  height: 100%;
+  width: 100%;
+
+  background-image: url(/imgs/background.jpg);
+}
+
+
+#filter{
+  transform:translate(50%,-50%);
+  position: absolute;
+
+  top: 50%;
+  right: 50%;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: #000000c7;
+  filter: blur(100%);
+}
+
+h1{
+  transform:translate(50%,-50%);
+  position: absolute;
+
+  top: 5%;
+  right: 50%;
+  color: aliceblue;
+}
+
+
+a{
   
-  html {
-      background-image: url(/imgs/background2.jpg);
-    
-   }
+  color: rgba(216, 216, 216, 0.74);
+  text-decoration: none;
+}
+
+
+.register {
+  transform: translate(50%,-50%);
+  position: absolute;
+  right:50% ;
+  top: 50%;
+  padding: 20px;
+
+  width: 430px;
+  height: 700px;
+
+  background-color: rgba(0, 0, 0, 0.658);
+  text-align: center;
+  border: 5px solid #00000000;
+  box-shadow: 4px 4px 5px rgb(184, 10, 10);
+  border-radius: 50px; 
+  font-size:larger;
+  font-style:unset;
+  color: rgb(255, 255, 255);
+}
+
+
+.informations{
+  transform: translate(50%, -50%);
+  position: absolute;
+  padding: 20px;
+
+  right: 50%;
+
+  width: 60%;
+  height: 1%;
+
+  background-color: rgba(255, 255, 255, 0.295);
+  border: solid 1px rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+
+  font-size: large;
+
+  box-shadow: 2px 2px 5px red;
+}
+
+#username {
+  top: 21%;
+}
+
+#email {
+  top: 32%;
+}
+
+#confirmemail {
+  top: 43%;
+}
+
+#password {
+  top: 54%;
+}
+
+#confirmpassword {
+  top: 65%;
+}
+
+#registerbt {
+  
+  transform: translate(50%, -50%);
+  position: absolute;
+  top: 90%;
+  right: 50%;
+  width: 90px;
+  height: 40px;
+ 
+  background-color: rgba(255, 255, 255, 0.295);
+  border: 2px solid rgba(81, 108, 131, 0.205);
+  border-radius: 3px;
+  filter: blur(1%);
+  border-radius: 8px;
+  color: rgb(0, 0, 0); 
+  cursor: pointer;
+ 
+  box-shadow: 2px 2px 4px red;
+}
+
+#terms {
+  transform: translate(50%, -50%);
+  position: absolute;
+  top: 81%;
+  right: 50%;
+
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  cursor: pointer;
+} 
+
+#credits {  
+  position: absolute;
+  transform: translate(50%,-50%);
+  right: 50%;
+  top: 93%;
+
+  color: rgb(3, 3, 3);
+}
+
+#creditsname {
+  color: rgb(97, 97, 97);
+  font-style: italic;
+}

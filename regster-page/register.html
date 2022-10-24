@@ -7,8 +7,34 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="background">
+        <div id="filter"></div>
+    </div>
+
+    <main class="register">
+        <h1>Register</h1>
+        <form>
+            <input type="text" id="username" placeholder="Username" class="informations">
+            <input type="email" id="email" placeholder="Email" class="informations">
+            <input type="email" id="confirmemail" placeholder="Confirm email" class="informations">
+            <input type="password" id="password" placeholder="password" class="informations">
+            <input type="password" id="confirmpassword" placeholder="Confirm password" class="informations"> 
+        </form>
+
+        <div id="errormsg"></div>
+
+        <div id="terms">
+            <input type="checkbox"> 
+            <label for="terms"><a href="">I agree terms of use</a></label>
+        </div>
     
+        <button type="button" id="registerbt">Confirm</button>
+    </main>
+
+    
+    <footer id="credits"><a id="creditsname" href="https://github.com/Rodr1goTavares">&copy;Rodr1goTavares</a></footer>
+
 </body>
 <link rel="stylesheet" href="register.css">
-<script src="register.css"></script>
+<script src="register.js"></script>
 </html>
