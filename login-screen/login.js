@@ -10,7 +10,7 @@ bt.addEventListener("mouseleave", btmouseLeave)
 function btConfirm(){
 
     let errormsg = document.getElementById('errormsg');
-    errormsg.innerHTML = 'Usuário ou senha incorretos';
+    errormsg.innerHTML = 'incorrect username or password';
     /* Como ainda não tem um back end para armazenar as informações
     do usuário, o programa vai sempre mostrar essa mensagem */
 }
