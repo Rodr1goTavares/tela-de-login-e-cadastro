@@ -48,24 +48,23 @@ a{
 }
 
 
+.login {
+  transform: translate(50%,-50%);
+  position: absolute;
+  right:50% ;
+  top: 50%;
+  padding: 20px;
 
- .login {
-     transform: translate(50%,-50%);
-     position: absolute;
-     right:50% ;
-     top: 50%;
-     padding: 20px;
-
-     background-color: rgba(0, 0, 0, 0.658);
-     width: 400px;
-     height: 400px;
-     text-align: center;
-     border: 5px solid #00000000;
-     box-shadow: 4px 4px 5px rgb(184, 10, 10);
-     border-radius: 50px; 
-     font-size:larger;
-     font-style:unset;
-     color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.658);
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border: 5px solid #00000000;
+  box-shadow: 4px 4px 5px rgb(184, 10, 10);
+  border-radius: 50px; 
+  font-size:larger;
+  font-style:unset;
+  color: rgb(255, 255, 255);
 }
 
 
